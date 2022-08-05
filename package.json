@@ -4,17 +4,6 @@
   "main": "index.js",
   "author": "MayronSouza <mayrondrummer@gmail.com>",
   "license": "MIT",
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "devDependencies": {
     "husky": "^8.0.0",
     "jest": "^28.1.3",
