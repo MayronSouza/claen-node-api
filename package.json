@@ -1,0 +1,10 @@
+{
+  "name": "clean-node-api",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "MayronSouza <mayrondrummer@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
