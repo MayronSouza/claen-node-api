@@ -5,11 +5,8 @@
   "author": "MayronSouza <mayrondrummer@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
+    "test": "npx standard --fix && jest",
     "prepare": "husky install"
-  },
-  "lint-staged": {
-    "*.js": ["standard --fix"]
   },
   "standard": {
     "env": [
