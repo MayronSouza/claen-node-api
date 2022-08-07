@@ -8,6 +8,9 @@
     "test": "jest",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*js": ["prettier"]
+  },
   "devDependencies": {
     "husky": "^8.0.0",
     "jest": "^28.1.3",
