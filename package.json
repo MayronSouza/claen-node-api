@@ -8,6 +8,11 @@
     "test": "jest",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*.js": [
+      "jest --bail --findRelatedTests"
+    ]
+  },
   "devDependencies": {
     "eslint": "^8.21.0",
     "eslint-config-airbnb-base": "^15.0.0",
