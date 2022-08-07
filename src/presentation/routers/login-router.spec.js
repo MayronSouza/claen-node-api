@@ -1,4 +1,4 @@
-const LoginRouter = require('./login-router');
+const LoginRouter = require('./login-router')
 const MissingParamError = require('../helpers/missing-param-error');
 const UnauthorizedError = require('../helpers/missing-param-error');
 
