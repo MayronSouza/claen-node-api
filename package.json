@@ -5,18 +5,14 @@
   "author": "MayronSouza <mayrondrummer@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "npx standard --fix && jest",
+    "test": "jest",
     "prepare": "husky install"
-  },
-  "standard": {
-    "env": [
-      "jest"
-    ]
   },
   "devDependencies": {
     "husky": "^8.0.0",
     "jest": "^28.1.3",
     "lint-staged": "^13.0.3",
-    "standard": "^17.0.0"
+    "prettier": "^2.7.1",
+    "pretty-quick": "^3.1.3"
   }
 }
