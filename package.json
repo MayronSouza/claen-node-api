@@ -9,9 +9,20 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*js": ["prettier"]
+    "**/*.js": [
+      "jest --bail --findRelatedTests"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test"
+    }
   },
   "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
     "husky": "^8.0.0",
     "jest": "^28.1.3",
     "lint-staged": "^13.0.3",
